@@ -113,8 +113,11 @@ This project is released under the **[Polyform Noncommercial License 1.0.0](http
 > 💼 For commercial use, please contact the author directly for a license.  
 > 📧 Contact: biubiutomato@gmail.com
 
-📚 Citation
+---
+## 📚 Citation
+
 If you find this project useful in your research, please consider citing our arXiv paper:
+
 ```bash
 @misc{ye2025taskmemoryenginetme,
   title     = {Task Memory Engine (TME): A Structured Memory Framework with Graph-Aware Extensions for Multi-Step LLM Agent Tasks},
