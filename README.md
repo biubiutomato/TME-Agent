@@ -1,23 +1,30 @@
 # 🧠 Task Memory Engine (TME)
 
-TME is a structured memory engine designed for LLM-based agents to perform **multi-step task planning**, **rollback**, **dynamic preference adjustment**, and **reasoning** between tasks.
+**TME** is a structured memory engine designed for LLM-based agents to perform **multi-step task planning**, **rollback**, **dynamic preference adjustment**, and **task-to-task reasoning**.
 
-> 📄 Paper: *Task Memory Engine: Structured Agent Memory for Multi-step Reasoning*  
-> 🧑‍💻 Author: [@biubiutomato](https://github.com/biubiutomato)  
-> 📦 Version: `v1.0` (core modules ready)  
-> 📘 License: [Polyform Noncommercial 1.0.0](./LICENSE)
+> 📄 Paper: *Task Memory Engine (TME): A Structured Memory Framework with Graph-Aware Extensions for Multi-Step LLM Agent Tasks*  
+> 🧑‍💻 GitHub: [@biubiutomato](https://github.com/biubiutomato)  
+> 📦 Version: `v1.0` (core modules scaffolded)  
+> 📘 License: [Polyform Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/)  
+> 💼 Free for academic and personal use. For commercial use, please contact the author.
+
 
 ---
 
 ## 🚧 Project Status: Actively Developing
 
-This is the initial release of **Task Memory Engine (TME)** — the core modules are ready and functional 🎉  
-We are currently working on the next major update featuring **DAG-based memory modeling** to support more flexible, non-linear task structures.
+This is the **initial release of TME**, with core architecture scaffolded and mock examples included 🎉  
+We are currently working on:
+
+- 🔄 Implementing **DAG-based memory modeling** to support more flexible, non-linear task dependencies  
+- 🧠 Enhancing the **reasoning and execution modules** with full LLM-based behavior
+
+> 🔍 **Note:** Current modules contain placeholders and mock logic. The repository focuses on structural clarity and early prototype demonstration. Full implementations are coming soon.
 
 📣 If you find this project helpful, please consider **starring**, **forking**, or **sharing** it!  
-Citation info and `Citation.bib` will be added after the arXiv version is published.
+Citation info and `citation.bib` are provided below for academic use.
 
-For feedback or collaboration opportunities, reach out at [biubiutomato@gmail.com](mailto:biubiutomato@gmail.com).
+For feedback or collaboration, contact [biubiutomato@gmail.com](mailto:biubiutomato@gmail.com)
 
 ---
 
@@ -46,9 +53,9 @@ tme-agent/
 ├── assets/
 │   └── tme_architecture.png
 ├── tme/
-│   ├── memory_tree.py
-│   ├── reasoning.py
-│   └── executor.py
+│   ├── memory_tree.py         # TMT data structure & node management
+│   ├── reasoning.py           # Placeholder for task dependency classifier
+│   └── executor.py            # Placeholder for prompt generation & execution
 └── examples/
     ├── trip_ChatGPT.py
     ├── trip_TEM.py
@@ -70,11 +77,7 @@ more examples coming soon...
 
 ```bash
 pip install openai
-```
-
-(Optional: for `.env` support)
-```bash
-pip install python-dotenv
+pip install python-dotenv  # if using .env to manage keys (recommended)
 ```
 
 ### 2. 🔐 Set your API Key
@@ -95,7 +98,7 @@ OPENAI_API_KEY=your_key_here
 ### ➤ Travel Planner (multi-step destination planning)
 Coming soon...
 
-### ➤ Form Filling (guided assistant，temporarily using mock data)
+### ➤ Form Filling (guided assistant with mocked LLM outputs)
 ```bash
 python examples/formfilling_ChatGPT.py
 python examples/formfilling_TEM.py
@@ -109,5 +112,20 @@ This project is released under the **[Polyform Noncommercial License 1.0.0](http
 
 > 💼 For commercial use, please contact the author directly for a license.  
 > 📧 Contact: biubiutomato@gmail.com
+
+📚 Citation
+If you find this project useful in your research, please consider citing our arXiv paper:
+```bash
+@misc{ye2025taskmemoryenginetme,
+  title     = {Task Memory Engine (TME): A Structured Memory Framework with Graph-Aware Extensions for Multi-Step LLM Agent Tasks},
+  author    = {Ye Ye},
+  year      = {2025},
+  eprint    = {2504.08525},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url       = {https://arxiv.org/abs/2504.08525}
+}
+```
+
 
 

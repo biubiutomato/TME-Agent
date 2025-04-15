@@ -1,10 +1,16 @@
 # SPDX‑License‑Identifier: Polyform‑Noncommercial‑1.0.0
+import os
 import time
 import json
+from dotenv import load_dotenv
 from collections import defaultdict
 from openai import OpenAI
 
-OPENAI_API_KEY="YOUR_KEY_HEAR"
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    raise ValueError("❌ OPENAI_API_KEY not found. Please set it in a .env file or export it.")
 
 client = OpenAI(
   api_key=OPENAI_API_KEY
