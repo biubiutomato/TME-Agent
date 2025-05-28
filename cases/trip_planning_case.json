@@ -1,0 +1,13 @@
+[
+    "Help me schedule a trip based on the information I provide.",
+    "destination: Set the destination to Seattle.",
+    "start: I will depart from Chicago.",
+    "date: I want to leave on June 10th.",
+    "destination: Actually, make that San Francisco.",
+    "date: Change the departure date to June 15th.",
+    "destination: Sorry, go back to Seattle as originally planned.",
+    "hotel: Find a hotel near downtown.",
+    "start: By the way, wasn’t I departing from Boston?",
+    "flight: Search for flights from Boston to San Francisco on June 10th.",
+    "finalize: Can you generate a complete trip plan? What's my start, destination and start date?"
+]
