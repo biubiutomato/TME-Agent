@@ -1,3 +1,7 @@
+This project is real and under active development. The current repository contains an early rough version of the structured scaffold and mock examples to demonstrate the architecture.
+✅ We are gradually committing full implementations before June 7, 2025.
+Thank you for your patience — feel free to star, watch, or follow the repo for updates!
+
 # 🧠 Task Memory Engine (TME)
 
 **TME** is a structured memory engine designed for LLM-based agents to perform **multi-step task planning**, **rollback**, **dynamic preference adjustment**, and **task-to-task reasoning**.
