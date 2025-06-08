@@ -14,7 +14,7 @@ This repository contains prototype code for two research versions of TME:
 - **v2**: Spatial memory system with rollback, replacement, DAG dependencies, and memory-aware QA  
   ↪︎ Paper: [*Task Memory Engine: Spatial Memory for Robust Multi-Step LLM Agents*](https://arxiv.org/abs/2505.19436)
 
-> ⚠️ **Disclaimer**: This is a reference implementation aligned with the above papers. v1 and v2 are conceptually related but structurally distinct. The repository is under active development, and modules may change before final release. As of June 08, 2025, full implementations are in progress.
+> ⚠️ **Disclaimer**: This is a reference implementation aligned with the above papers. v1 and v2 are conceptually related but structurally distinct. The repository is under active development, and modules may change before final release.
 
 ---
 
