@@ -82,11 +82,11 @@ python run_case.py cases/cart_editing_case.json --mode cart
 TME processes user inputs into a structured graph of subtasks, preserving history, dependencies, and intent transitions. Below are the architectural diagrams for v1 and v2:
 
 - **TME v1 Architecture**: Illustrates the tree + graph memory framework with slot-based task tracking.  
-  ![TME v1 Architecture](./figures/tme_v1_architecture.jpg)
+  ![TME v1 Architecture](./v1/figs/tme_v1_architecture.jpg)
 
 - **TME v2 Architecture**: Depicts the structured memory system with DAG dependencies and memory-aware QA.  
-  ![TME v2 Architecture](./figures/tme_v2_architecture.png)
-  ![TME v2 Workflow](./figures/tme_v2_workflow.png)
+  ![TME v2 Architecture](./v2/figs/tme_v2_architecture.png)
+  ![TME v2 Workflow](./v2/figs/tme_v2_workflow.png)
 
 ### Directory Structure
 
