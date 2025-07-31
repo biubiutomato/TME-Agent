@@ -4,17 +4,6 @@ The `cases/` folder contains the input user utterances for four multi-turn inter
 
 - **v2**: Spatial memory system with rollback, replacement, DAG dependencies, and memory-aware QA  
   ↪︎ Paper: [*Task Memory Engine: Spatial Memory for Robust Multi-Step LLM Agents*](https://arxiv.org/abs/2505.19436)
-```bibtex
-@misc{ye2025taskmemoryenginespatial,
-      title={Task Memory Engine: Spatial Memory for Robust Multi-Step LLM Agents}, 
-      author={Ye Ye},
-      year={2025},
-      eprint={2505.19436},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2505.19436}, 
-}
-```
 
 **Run Commands**:
 
