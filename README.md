@@ -108,38 +108,6 @@ TME-Agent/
 
 ---
 
-## 📚 Citation
-
-If you find this project useful, please consider citing:
-
-**v2**:
-```bibtex
-@misc{ye2025taskmemoryenginespatial,
-  title     = {Task Memory Engine: Spatial Memory for Robust Multi-Step LLM Agents},
-  author    = {Ye Ye},
-  year      = {2025},
-  eprint    = {2505.19436},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.AI},
-  url       = {https://arxiv.org/abs/2505.19436}
-}
-```
-
-**v1**:
-```bibtex
-@misc{ye2025taskmemoryenginetme,
-  title     = {Task Memory Engine (TME): A Structured Memory Framework with Graph-Aware Extensions for Multi-Step LLM Agent Tasks},
-  author    = {Ye Ye},
-  year      = {2025},
-  eprint    = {2504.08525},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.AI},
-  url       = {https://arxiv.org/abs/2504.08525}
-}
-```
-
----
-
 ## 🛡️ License & Usage
 
 This project is licensed under the **Polyform Noncommercial License 1.0.0**.  
